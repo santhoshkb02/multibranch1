@@ -3,7 +3,7 @@ pipeline{
   stages{
     stage('Hello'){
       when {
-       branch 'multibranch1' 
+       branch 'feature' 
       }
       steps{
         echo "hello from multibranch1"
